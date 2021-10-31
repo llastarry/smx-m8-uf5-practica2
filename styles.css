@@ -1,0 +1,67 @@
+h1 {
+  color: orange;
+}
+
+h2 {
+  color: darkred;
+}
+
+p1 {
+  border: darkgreen 5px solid;
+}
+
+p2,li{
+  color: orange;
+  font: oblique bold 120% cursive;
+  font-size: 18pt;
+}
+
+li em {
+  color: rebeccapurple;
+}
+
+h1 + p {
+    font-size: 200%;
+}
+
+.example {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+ol {
+  list-style-type: upper-alpha;
+}
+li.special {
+  color: silver;
+  font: bold 100% monospace;
+  font-size: 10pt;
+}
+
+li.special1 {
+  color: yellow;
+  font: bold 100% monospace;
+  font-size: 15pt;
+}
+
+body { background-image: url(/home/jaimellastarry/Documents/html/imagen/fondo.gif);
+       background-repeat: no-repeat; 
+       background-position: center center;
+       background-attachment: fixed;
+       background-size: cover;
+}
+
+html {
+  background-color: deepskyblue;
+  font-size: 20px;
+}
+
+ul {
+  background: red;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+li {
+  margin-left: 20px;
+}
